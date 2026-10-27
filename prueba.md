@@ -78,4 +78,22 @@
 
 ### Inicia sesión con el usuario y contraseña antes creados:
 
-### 
+### Ejecutar $ip a e identificar la IP del rango 10.0.2.X(NAT) y cual no tiene aún IP o tiene una del rango 192.168.56.X(Host-only):
+
+### Comprobar la salida a internet ejecutando $ping -c 3 archive.ubuntu.com
+
+## 7. Fijar la IP de la interfaz Host-only(netplan)
+
+### Localizar el fichero de configuración ejecutando $ls /etc/netplan/, es el fichero .yaml:
+
+### Abrir el fichero .yaml ejecutando $sudo nano /etc/netplan/50-cloud-init.yaml(o el nombre del fichero .yaml visto en el paso anterior):
+
+### Editar los datos del fichero introduciendo los nombres de interfaz vistos anteriormente con $ip a y asignandole su configuración correspondiente(la asignada en la siguiente foto) y hacemos Ctrl+X, escribimos Y y le damos a Enter para salir del fichero y guardar:
+
+### Aplicar los cambios ejecutando $sudo netplan apply:
+
+### Verificar que la interfaz host-only ya tiene la IP fija ejecutando $ip a:
+
+## 8. Conectar por SSH desde tu equipo
+
+### Conectar el usuario a la ip fija del host-only ejecutando ssh (Usuario)@(IP fija)
