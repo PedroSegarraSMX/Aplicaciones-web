@@ -34,4 +34,36 @@
 
 <img width="956" height="342" alt="Captura de 2026-10-22 18-59-13" src="https://github.com/user-attachments/assets/9482de5e-8f52-4a88-95f7-73481ed7225d" />
 
-###
+### Habilitamos el adaptador 2 y lo ponemos en adaptador solo-anfitrióny seleccionamos el host-only creado anteriormente(vboxnet):
+
+<img width="692" height="280" alt="Captura de 2026-10-27 15-19-47" src="https://github.com/user-attachments/assets/d1f0fd16-2df7-43bf-9794-99f17ba1195d" />
+
+### Guardar dandole a aceptar:
+
+<img width="319" height="141" alt="Captura de 2026-10-27 15-28-20" src="https://github.com/user-attachments/assets/be6358b2-d927-44e1-ac51-5a4492a48d2d" />
+
+## 4. Montar la ISO y arrancar
+
+### Añadir ISO dandole a configuración en nuestra máquina y seleccionando el archivo de la ISO(ubuntu-24.04-live-server-amd64.iso) en la unidad óptica vacía en almacenamiento:
+
+<img width="954" height="279" alt="Captura de 2026-10-27 15-38-12" src="https://github.com/user-attachments/assets/fa3e8baa-ad27-421e-97b7-2a478d8545d9" />
+
+### Iniciar máquina virtual:
+
+<img width="482" height="91" alt="Captura de 2026-10-27 15-46-18" src="https://github.com/user-attachments/assets/992f1915-59c9-4dbf-9c85-1fcbfe0cb657" />
+
+## 5. Instalar Ubuntu Server 24.04
+
+### Seleccionar idioma:
+
+### Seleccionar distribución de teclado:
+
+### Seleccionar tipo de instalación, en nuestro caso sin minimized:
+
+### Seleccionar proxy, en nuestro caso no:
+
+### Seleccionar mirror, en nuestro caso no:
+
+### Seleccionar el disco completo en almacenamiento(por defecto):
+
+### 
