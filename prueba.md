@@ -66,4 +66,16 @@
 
 ### Seleccionar el disco completo en almacenamiento(por defecto):
 
+### Seleccionar el nombre, nombre del servidor, nombre de usuario y contraseña:
+
+### Seleccionar OpenSSH, en nuestro caso si, le damos a install OpenSSH server:
+
+### Seleccionar Snaps, en nuestro caso no:
+
+### Esperar a que termine la instalación y darle a reboot now. Si te pide retirar el medio de instalación, pulsa Enter:
+
+## 6. Primer arranque: comprobar interfaces
+
+### Inicia sesión con el usuario y contraseña antes creados:
+
 ### 
